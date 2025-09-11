@@ -39,3 +39,5 @@ print(pessoa['endereços'])
 
 for chave in pessoa:
     print(chave, pessoa[chave])
+
+
