@@ -1,4 +1,25 @@
 {
+    // Força o Pylance como servidor de linguagem
+    "python.languageServer": "Pylance",
+
+    // Ativa IntelliCode no Python
+    "intellicode.python.enabled": true,
+
+    // Sugestões automáticas mais inteligentes
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.completeFunctionParens": true,
+
+    // Configurações gerais de autocomplete
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true
+    },
+    "editor.suggest.showWords": true,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+
+    // Usa o interpretador Python correto
+    "python.defaultInterpreterPath": "python",
     "python-envs.defaultEnvManager": "ms-python.python:system",
     "python-envs.pythonProjects": []
 }
