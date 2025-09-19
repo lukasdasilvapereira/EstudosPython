@@ -17,6 +17,9 @@ produtos = [
 # Gere produtos_ordenados_por_preco por deep copy (cópia profunda)
 
 for produto in produtos:
-    print(produto['preco'] * 1.10)
+    novos_produtos = produto['preco'] * 1.10
+    print(novos_produtos)
+
+
 
 
