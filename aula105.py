@@ -16,10 +16,6 @@ produtos = [
 # Ordene os produtos por preco crescente (do menor para maior)
 # Gere produtos_ordenados_por_preco por deep copy (cópia profunda)
 
-for produto in produtos:
-    novos_produtos = produto['preco'] * 1.10
-    print(novos_produtos)
-
 
 
 
