@@ -5,7 +5,7 @@ print(list(zip(nomes, idades)))
 
 #from intertools import zip_longest
 
-alunos = ["Lucas", "Anderson", "Gabriele", "Vitor"]
+alunos = ["Lucas", "Anderson", "Gabriele", "Fernando"]
 notas = [8.5, 9.0, 5.0]
 
 print(list(zip(alunos, notas)))
