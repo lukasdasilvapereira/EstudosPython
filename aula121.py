@@ -1,4 +1,5 @@
-# Criando arquivos com Python + Context Manager with
+import os
+]# Criando arquivos com Python + Context Manager with
 # Usamos a função open para abrir
 # um arquivo em Python (ele pode ou não existir)
 # Modos:
@@ -45,3 +46,8 @@ with open(caminho_arquivo, 'w+') as arquivo:
 
 with open(caminho_arquivo, 'r') as arquivo:
     print(arquivo.read())
+
+# os.remove(caminho_arquivo)
+# os.unlink(caminho_arquivo) # AMBOS SERVEM PARA REMOVER O ARQUIVO
+
+os.rename(caminho_arquivo, 'aula121-2.txt')
