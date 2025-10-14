@@ -19,3 +19,4 @@ bd = [vars(p1), vars(p2)]
 
 with open(caminho_arquivo, 'w', encoding='utf8') as arquivo:
     json.dump(bd, arquivo, ensure_ascii=False, indent=2)
+
